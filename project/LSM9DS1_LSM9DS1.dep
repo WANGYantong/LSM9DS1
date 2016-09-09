@@ -250,7 +250,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\srccode\main.c)(0x57D2260F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\main.o" --omf_browse "..\outfile\main.crf" --depend "..\outfile\main.d")
+F (..\srccode\main.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\main.o" --omf_browse "..\outfile\main.crf" --depend "..\outfile\main.d")
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
 I (..\srccode\global.h)(0x57D1B40F)
 I (..\srccode\stm32f10x.h)(0x54A92AD1)
@@ -262,7 +262,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\srccode\Retarget.c)(0x5252BD54)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\retarget.o" --omf_browse "..\outfile\retarget.crf" --depend "..\outfile\retarget.d")
+F (..\srccode\Retarget.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\retarget.o" --omf_browse "..\outfile\retarget.crf" --depend "..\outfile\retarget.d")
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB0EEA0)
 I (..\srccode\device.h)(0x57D1B2A9)
@@ -276,7 +276,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\srccode\stm32f10x_it.c)(0x57D1B240)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\stm32f10x_it.o" --omf_browse "..\outfile\stm32f10x_it.crf" --depend "..\outfile\stm32f10x_it.d")
+F (..\srccode\stm32f10x_it.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\stm32f10x_it.o" --omf_browse "..\outfile\stm32f10x_it.crf" --depend "..\outfile\stm32f10x_it.d")
 I (..\srccode\stm32f10x_it.h)(0x57D1B2D4)
 I (..\srccode\stm32f10x.h)(0x54A92AD1)
 I (..\lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -288,7 +288,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
 I (..\srccode\global.h)(0x57D1B40F)
-F (..\srccode\device.c)(0x57D1AFEB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\device.o" --omf_browse "..\outfile\device.crf" --depend "..\outfile\device.d")
+F (..\srccode\device.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\device.o" --omf_browse "..\outfile\device.crf" --depend "..\outfile\device.d")
 I (..\srccode\device.h)(0x57D1B2A9)
 I (..\srccode\global.h)(0x57D1B40F)
 I (..\srccode\stm32f10x.h)(0x54A92AD1)
@@ -300,7 +300,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\srccode\unoptimize.c)(0x57D2270F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\unoptimize.o" --omf_browse "..\outfile\unoptimize.crf" --depend "..\outfile\unoptimize.d")
+F (..\srccode\unoptimize.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\unoptimize.o" --omf_browse "..\outfile\unoptimize.crf" --depend "..\outfile\unoptimize.d")
 I (..\srccode\global.h)(0x57D1B40F)
 I (..\srccode\stm32f10x.h)(0x54A92AD1)
 I (..\lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -311,7 +311,7 @@ I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\srccode\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\system_stm32f10x.o" --omf_browse "..\outfile\system_stm32f10x.crf" --depend "..\outfile\system_stm32f10x.d")
+F (..\srccode\system_stm32f10x.c)(0x57D23248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\inc -I..\srccode -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\system_stm32f10x.o" --omf_browse "..\outfile\system_stm32f10x.crf" --depend "..\outfile\system_stm32f10x.d")
 I (..\srccode\stm32f10x.h)(0x54A92AD1)
 I (..\lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)

@@ -19,27 +19,33 @@
 //extern int  sendchar(int ch);  /* in serial.c */
 
 
-struct __FILE { int handle; /* Add whatever you need here */ };
+struct __FILE {
+	int handle;		/* Add whatever you need here */
+};
 FILE __stdout;
 
 
-int fputc(int ch, FILE *f) {
-  DEV_PutChar(ch);
-  return 0;
+int fputc(int ch, FILE * f)
+{
+	DEV_PutChar(ch);
+	return 0;
 }
 
 
-int ferror(FILE *f) {
-  /* Your implementation of ferror */
-  return EOF;
+int ferror(FILE * f)
+{
+	/* Your implementation of ferror */
+	return EOF;
 }
 
 
-void _ttywrch(int ch) {
-  DEV_PutChar(ch);
+void _ttywrch(int ch)
+{
+	DEV_PutChar(ch);
 }
 
 
-void _sys_exit(int return_code) {
-label:  goto label;  /* endless loop */
+void _sys_exit(int return_code)
+{
+      label:goto label;	/* endless loop */
 }

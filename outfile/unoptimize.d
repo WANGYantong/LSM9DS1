@@ -1,0 +1,12 @@
+..\outfile\unoptimize.o: ..\srccode\unoptimize.c
+..\outfile\unoptimize.o: ..\srccode\global.h
+..\outfile\unoptimize.o: ..\srccode\stm32f10x.h
+..\outfile\unoptimize.o: ..\lib\CMSIS\CM3\CoreSupport\core_cm3.h
+..\outfile\unoptimize.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\outfile\unoptimize.o: ..\srccode\system_stm32f10x.h
+..\outfile\unoptimize.o: ..\srccode\stm32f10x_conf.h
+..\outfile\unoptimize.o: ..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\outfile\unoptimize.o: ..\srccode\stm32f10x.h
+..\outfile\unoptimize.o: ..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\outfile\unoptimize.o: ..\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\outfile\unoptimize.o: ..\lib\STM32F10x_StdPeriph_Driver\inc\misc.h

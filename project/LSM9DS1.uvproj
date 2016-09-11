@@ -551,6 +551,11 @@
               <FileType>2</FileType>
               <FilePath>..\srccode\startup_stm32f10x_hd.s</FilePath>
             </File>
+            <File>
+              <FileName>lsm9ds1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\srccode\lsm9ds1.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

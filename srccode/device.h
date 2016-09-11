@@ -11,6 +11,7 @@ extern void DEV_UartInit(void);
 extern void DEV_I2CInit(void);
 extern void I2C_GPIO_Config(void);
 extern void I2C_Mode_Config(void);
+extern void DEV_CSEnable(void);
 
 
 #endif

@@ -4,12 +4,32 @@ void DEV_HardwareInit(void)
 {
 	DEV_UartInit();
 	DEV_I2CInit();
+
+	//In the next schematic, hope the CS line connected to Vdd_IO.
+	DEV_CSEnable();
 }
 
 void DEV_PeripheralInit(void)
 {
 	LSM9DS1_Init();
 }
+
+/************************************************CS******************************************************/
+void DEV_CSEnable(void)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7 | GPIO_Pin_8;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+
+	GPIO_Init(GPIOC, &GPIO_InitStructure);
+
+	GPIO_SetBits(GPIOC, GPIO_Pin_7 | GPIO_Pin_8);
+}
+
 
 /***********************************************USART2*****************************************************/
 void DEV_UartInit(void)
@@ -166,6 +186,7 @@ void I2C_BufferWrite(U8 * pBuffer, U8 DeviceAddr, U8 RegisterAddr, U16 NumByte_R
 	while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_BYTE_TRANSMITTED));
 
 	while (NumByte_Read--) {
+
 		I2C_SendData(I2C1, *pBuffer);
 		pBuffer++;
 		//EV8

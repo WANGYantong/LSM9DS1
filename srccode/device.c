@@ -150,17 +150,27 @@ void I2C_BufferRead(U8 * pBuffer, U8 DeviceAddr, U8 RegisterAddr, U16 NumByte_Re
 	//EV6
 	while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED));
 
-	while (NumByte_Read) {
-		if (NumByte_Read == 1) {
-			I2C_AcknowledgeConfig(I2C1, DISABLE);
-			I2C_GenerateSTOP(I2C1, ENABLE);
-		}
-		if (I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_BYTE_RECEIVED)) {
-			*pBuffer = I2C_ReceiveData(I2C1);
-			pBuffer++;
-			NumByte_Read--;
-		}
-	}
+ 	while (NumByte_Read) {
+ 		if (NumByte_Read == 0) {
+ 			I2C_AcknowledgeConfig(I2C1, DISABLE);
+ 			I2C_GenerateSTOP(I2C1, ENABLE);
+ 		}
+ 		if (I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_BYTE_RECEIVED)) {
+ 			*pBuffer = I2C_ReceiveData(I2C1);
+ 			pBuffer++;
+ 			NumByte_Read--;
+ 		}
+ 	}
+//////////////////////////////////////////////////////////////////////////////////
+//	while(NumByte_Read){
+//		*pBuffer = I2C_ReceiveData(I2C1);
+//		pBuffer++;
+//		NumByte_Read--;
+//	}
+//	I2C_AcknowledgeConfig(I2C1, DISABLE);
+//	I2C_GenerateSTOP(I2C1, ENABLE);
+/////////////////////////////////////////////////////////////////////////////////
+	
 
 	I2C_AcknowledgeConfig(I2C1, ENABLE);
 }

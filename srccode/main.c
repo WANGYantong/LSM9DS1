@@ -9,9 +9,9 @@ S32 main(void)
 	DEV_HardwareInit();
 	DEV_PeripheralInit();
 
-	printf("\n****************************************\n");
-	printf("\r Test version %s ", SOFTWARE_VERSION);
-	printf("\n****************************************\n");
+	printf("\r\n ++++++++++++++++++++++++++++++++++++++++ \n");
+	printf("\r\n Test version %s \n", SOFTWARE_VERSION);
+	printf("\r\n ++++++++++++++++++++++++++++++++++++++++ \r\n");
 
 	result = LSM9DS1_Identify();
 
